@@ -48,20 +48,32 @@ I decided to create my own dataframe which will consist of only important featur
 I first tried to build a system which can recommend the movies according to the movie overview
 ### NLP:
 Here our my steps to deal with data using nlp
-Data preprocessing
-Converting into proper data types- converted overview into string
-Replaces nan values with empty string 
- Generated WordCloud
-Count Of Stopwords and removal of it
-Conversion into Lowercase
-The first pre-processing step which we will do is transform our texts into lower case. This avoids having multiple copies of the same words
-Found out number of numerics
-Punctuation removal 
-Common words removal
-Spelling correction
-Tokenization
-Tfidf vectorization
-Sparse matrix
+*Data preprocessing
+
+*Converting into proper data types- converted overview into string
+
+*Replaces nan values with empty string 
+
+*Generated WordCloud
+
+*Count Of Stopwords and removal of it
+
+*Conversion into Lowercase
+*The first pre-processing step which we will do is transform our texts into lower case. This avoids having multiple copies of the same words
+
+*Found out number of numerics
+
+*Punctuation removal 
+
+*Common words removal
+
+*Spelling correction
+
+*Tokenization
+
+*Tfidf vectorization
+
+*Sparse matrix
 
 I had  build Content Based Recommenders based on: Movie Overviews and title using the cosine similarity
 
